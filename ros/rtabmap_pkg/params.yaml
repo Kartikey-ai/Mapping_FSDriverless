@@ -1,0 +1,14 @@
+subscribe_depth: false  # monocular camera ka data. If thi is on then mono ka data and rgb bhi dena pdega. whereas jab rgbd on hoga tab bhi sirf akela kaafi hoga.
+subscribe_rgbd: false
+subscribe_scan: false
+subscribe_scan_cloud: false
+subscribe_stereo: true
+frame_id: base_link
+#map_frame_id: map
+# queue_size: 10
+publish_tf: true
+# wait_for_transform: true
+# wait_for_transform_duration: 0.1
+approx_sync: true
+Grid/3D: true    # 3D map
+Grid/FromDepth: true  # grid from 3dlaser
